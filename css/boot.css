@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+       
+.box.card {
+    /*margin: 30px 10px;*/
+    padding: 20px 15px;
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    height: 175px;
+}
+
+.box.card:after {
+    content:" ";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    /*background-image:linear-gradient(180deg, rgba(255, 255, 255, .01), rgb(255 255 255 / 7%) 85%),radial-gradient(ellipse at top left, rgb(13 110 253), #00000014 50%),radial-gradient(ellipse at top right, rgb(255 228 132), transparent 50%),radial-gradient(ellipse at center right, #712cf9e3, transparent 50%),radial-gradient(ellipse at center left, rgb(214 51 132 / 40%), #00000054 50%);*/
+    z-index: 1;
+    transition: .3s;
+}
+.box.card:hover:after {
+    background-color: #00000040;
+    /*background-image: linear-gradient(180deg, rgb(255 255 255 / 47%), rgb(255 255 255 / 7%) 85%),radial-gradient(ellipse at top left, rgb(13 110 253 / 32%), #00000014 50%),radial-gradient(ellipse at top right, rgb(255 228 132 / 48%), transparent 50%),radial-gradient(ellipse at center right, #712cf96e, transparent 50%),radial-gradient(ellipse at center left, rgb(214 51 132 / 29%), #0000001f 50%);*/
+    
+}
+.box.card .imgContainer img {
+    max-width: 100%;
+    border-radius: 4px
+}
+
+.box.card .content {
+    position: absolute;
+    padding: 10px 15px;
+    text-align: center;
+    /*visibility: hidden;
+    opacity: 0;*/
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+    bottom:0px;
+    width: 100%;
+    color: var(--white);
+    font-weight: bolder;
+    font-size: 2.2vw;
+    z-index: 2;
+}
+
+.box.card:hover .content {
+    /*visibility: visible;
+    opacity: 1;*/
+    transition-delay: 0.1s;
+    bottom:35%;
+}
+
+@media (max-width: 330px) {
+    .box.card .imgContainer {
+        left: -2px
+    }
+
+}
+.particles-js{
+width: 50%;
+height: 40%;
+background:red
+}
+footer{
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+}
