@@ -227,6 +227,11 @@ body{
     .about-bg{
         background-image: linear-gradient(0deg, #e1eff6 60%, transparent 21%) !important;
     }
+
+    .about-bg2{
+        background-image: linear-gradient(0deg, #c8d0bc 60%, transparent 21%) !important;
+    }
+    
     a.navbar-brand>img {
         width: 10vw !important;
     }
@@ -459,6 +464,21 @@ body{
     position: relative;
 }
 .about-bg:after{
+    background-image: url('../img/about-bg.png');
+    background-size: cover;
+    content: " ";
+    position: absolute;
+    width: 98vw;
+    height: 100%;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+.about-bg2{
+    background-image: linear-gradient(-90deg, #c8d0bc 60%, transparent 21%);
+    position: relative;
+}
+.about-bg2:after{
     background-image: url('../img/about-bg.png');
     background-size: cover;
     content: " ";
