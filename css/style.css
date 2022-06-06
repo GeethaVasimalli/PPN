@@ -228,6 +228,9 @@ body{
     a.navbar-brand>img {
         width: 10vw !important;
     }
+    .navbar.sticky-top .navbar-brand>span {
+        visibility: visible !important;
+    }
 }
 @media (max-width: 1279px) {
     #header-carousel .carousel-item {
@@ -293,10 +296,10 @@ body{
         height: 100vh;
     }
 @media (max-width: 768px) {
-    #header-carousel .carousel-item {
+    /* #header-carousel .carousel-item {
         position: relative;
-        min-height: 500px;
-    }
+        max-height: 500px;
+    } */
     
     #header-carousel .carousel-item img {
         position: absolute;
