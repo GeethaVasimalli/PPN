@@ -28,6 +28,8 @@ body{
 
 .ff-jost { font-family: 'Jost', sans-serif;}
 
+.text-justify{ text-align: justify;}
+
 .fs-content{
     font-size: 1.5vw !important;
 }
