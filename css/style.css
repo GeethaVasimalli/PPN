@@ -30,8 +30,55 @@ body{
 
 .text-justify{ text-align: justify;}
 
-.fs-content{
+/* .fs-content{
     font-size: 1.5vw !important;
+} */
+.fs-hdng{
+    font-size: 2vw;
+}
+
+.fs-hdr{
+    font-size: 50px;
+}
+
+
+
+@media (max-width: 1680px){
+    .fs-hdr {
+        font-size: 50px;
+    }
+}
+@media (max-width: 1599px){
+    .fs-hdr {
+        font-size: 45px;
+    }
+    .fs-hdng{
+        font-size: 24px;
+    }
+    .fs-content{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1199.98px){
+    .fs-hdr {
+        font-size: 35px;
+    }
+    .fs-hdng{
+        font-size: 20px;
+    }
+    .fs-content{
+        font-size: 23px;
+    }
+}
+@media (max-width: 991.98px){
+    .fs-hdr {
+        font-size: 26px;
+    }
+}
+@media (max-width: 767.98px){
+    .fs-hdr {
+        font-size: 23px;
+    }
 }
 
 /*** Spinner ***/
@@ -223,7 +270,8 @@ body{
     .navbar-top{
         background-color: #00000070 !important;
     }
-    .fs-content{ font-size: 4vw !important;}
+    /* .fs-content{ font-size: 4vw !important;}
+    .fs-hdng{ font-size: 5vw !important;} */
     .about-bg{
         background-image: linear-gradient(0deg, #e1eff6 60%, transparent 21%) !important;
     }
@@ -253,6 +301,14 @@ body{
 
 
 /*** Header ***/
+.carousel-indicators [data-bs-target]{
+    width: 15px !important;
+    height: 15px !important;
+    transform: rotate(45deg);
+    border:0px !important;
+    margin: 0 10px !important;
+    border-radius: 3px;
+}
 #header-carousel .carousel-caption {
     top: 0;
     left: 0;
