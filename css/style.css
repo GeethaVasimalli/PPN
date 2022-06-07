@@ -318,7 +318,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(32, 30, 19, 57%);
+    /* background: rgba(32, 30, 19, 57%); */
     z-index: 1;
     font-family: 'Jost', sans-serif;
 }
