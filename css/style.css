@@ -282,6 +282,9 @@ body{
     .service-bg{
         background-image: linear-gradient(0deg, #e6e2cf 60%, transparent 21%) !important;
     }
+    .zoho-bg{
+        background-image: linear-gradient(0deg, #d9dcf0 60%, transparent 21%) !important;
+    }
     
     
     a.navbar-brand>img {
@@ -531,15 +534,18 @@ body{
     background-image: linear-gradient(-90deg, #e6e2cf 60%, transparent 21%);
     position: relative;
 }
+.zoho-bg{
+    background-image: linear-gradient(-90deg, #d9dcf0 60%, transparent 21%);
+}
 .about-bg2:after, .about-bg:after,
-.service-bg:after{
+.service-bg:after, .zoho-bg:after{
     background-image: url('../img/about-bg.png');
     background-size: cover;
     content: " ";
     position: absolute;
     width: 98vw;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     top: 0px;
     left: 0px;
 }
