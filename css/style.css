@@ -334,7 +334,8 @@ body{
     font-size: 4.4vw;
     font-weight: bolder;
     text-shadow: 5px 5px 0px #b0b0b070;
-    border-right: solid 2px #91919182;
+    border-right: solid 2px #ffffff82;
+    background-color: #00000070;
 }
 #header-carousel .carousel-caption>.text>div{
     position: relative;
