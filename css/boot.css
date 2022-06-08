@@ -19,12 +19,7 @@
     transition: .3s;
     bottom: 0px;
 }
-.box.card:hover:after {
-    /* background-color: #213b52e0; */
-    height: 100%;
-    /*background-image: linear-gradient(180deg, rgb(255 255 255 / 47%), rgb(255 255 255 / 7%) 85%),radial-gradient(ellipse at top left, rgb(13 110 253 / 32%), #00000014 50%),radial-gradient(ellipse at top right, rgb(255 228 132 / 48%), transparent 50%),radial-gradient(ellipse at center right, #712cf96e, transparent 50%),radial-gradient(ellipse at center left, rgb(214 51 132 / 29%), #0000001f 50%);*/
-    
-}
+
 .box.card .imgContainer{
     max-height: 185px;
 }

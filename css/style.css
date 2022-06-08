@@ -1057,3 +1057,34 @@ a.link-grey:hover{
     top: 0;
     z-index: 0;
 }
+
+.link-more{
+    color: #f6190d;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+.link-more::before{
+    content: "\e917";
+    font-family: "icomoon";
+    position: absolute;
+    right: 0;
+    font-size: 7px;
+    top: 50%;
+    color: #000;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-in-out;
+}
+.link-more::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 12px;
+    right: 5px;
+    background: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-in-out;
+    transform-origin: left;
+    will-change: transform;
+}
