@@ -551,8 +551,10 @@ body{
     left: 0px;
 }
 .bg-zoho{
-    background-image: url('../img/collection/bg.jpg');
-    background-position: center;
+    background-image: url('../img/collection/image-from-rawpixel-id-2339980-original.png');
+    background-position: top;
+    background-size: cover;
+    background-color: lightslategrey;
 }
 
 /*** Facts ***/
