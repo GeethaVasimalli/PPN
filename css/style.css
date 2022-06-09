@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 :root {
     --primary: #18597E;
@@ -30,6 +30,7 @@ body{
 }
 
 .ff-jost { font-family: 'Jost', sans-serif;}
+.ff-koulen{ font-family: 'Koulen', cursive; }
 
 .text-justify{ text-align: justify;}
 
@@ -217,7 +218,8 @@ body{
     position: relative;
     text-transform: uppercase;
     color: #ffffff80;
-    font-weight: bolder;
+    font-weight: 400;
+    font-family: 'Roboto Slab';
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active, 
