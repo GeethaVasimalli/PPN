@@ -200,8 +200,8 @@ body{
     align-items: stretch;
     width: 100%;
     min-height: 10vh;
-    background-image: linear-gradient(to bottom, #00000093, transparent);
-    border-bottom: solid 1px #eeeeee3b;
+    /* background-image: linear-gradient(to bottom, #00000093, transparent);
+    border-bottom: solid 1px #eeeeee3b; */
 }
 
 .navbar-fixed {
