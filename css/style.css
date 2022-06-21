@@ -239,7 +239,6 @@ body{
     border-radius: 5px;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }*/
-
 .navbar.sticky-top {
     top: -1px !important;
     background-color: #0000009e;
@@ -274,6 +273,7 @@ body{
 @media (max-width: 850px) {
     .navbar-top{
         background-color: #00000070 !important;
+        min-height: 6vh;
     }
     /* .fs-content{ font-size: 4vw !important;}
     .fs-hdng{ font-size: 5vw !important;} */
@@ -293,7 +293,7 @@ body{
     
     
     a.navbar-brand>img {
-        width: 10vw !important;
+        width: 8vw !important;
     }
     .navbar.sticky-top .navbar-brand>span {
         visibility: visible !important;
@@ -855,6 +855,9 @@ body{
 }
 a.navbar-brand>img{
     width: 4vw;
+}
+a.navbar-brand{
+    font-size: 3.1vw;
 }
 a.link-grey, .link-grey{
     color:var(--link-grey);
