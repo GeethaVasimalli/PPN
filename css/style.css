@@ -241,7 +241,7 @@ body{
 }*/
 .navbar.sticky-top {
     top: -1px !important;
-    background-color: #0000009e;
+    background-color: #000000b0;
 }
 .navbar-top.sticky-top {
     min-height: 9vh;
