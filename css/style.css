@@ -503,7 +503,23 @@ body{
     object-fit: cover;
     border-radius: 3px;
 }
-
+.sap-section{
+    background: url('../img/learn-image.jpg') center top no-repeat fixed;
+    background-size: cover;
+    background-position:top;
+    position: relative;;
+    z-index: 0;
+}
+.sap-section:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(20 159 220 / 63%);
+    z-index: -1;
+}
 .learning-section{
     background: url('../img/cards-1.jpg') center top no-repeat fixed;
     background-size: cover;
@@ -563,6 +579,12 @@ body{
     background-position: top;
     background-size: cover;
     background-color: lightslategrey;
+}
+.bg-SAP {
+    background-image: url(../img/peakpx.jpg);
+    background-position: top;
+    background-size: cover;
+    background-color: #323a56;
 }
 
 /*** Facts ***/
